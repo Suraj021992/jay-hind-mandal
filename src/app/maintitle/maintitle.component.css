@@ -1,0 +1,5 @@
+@media (max-width: 767px) {
+    .show_hide {
+      display: none;
+    }
+  }

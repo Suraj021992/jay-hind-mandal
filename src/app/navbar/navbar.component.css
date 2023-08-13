@@ -6,7 +6,22 @@ backdrop-filter: blur( 10.5px );
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
+@media (max-width: 767px) {
+    .show_hide {
+      display: none;
+    }
+  }
 
+@media (min-width: 767px) {
+    .show_hide2 {
+      display: none;
+    }
+  }
+
+  .smallBanner{
+    display: flex;
+    display: inline;
+  }
 /* #navbar1::before{
     content: "";
     background-color: rgb(0, 0, 0);
