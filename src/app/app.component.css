@@ -1,0 +1,18 @@
+.devotional-bg {
+    background-image: url('../assets/logo/pxfuel.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+  .bg-dark-transparent {
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust transparency as needed */
+  }
+  
+  
+  
+  .footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust transparency as needed */
+    color: #ffffff;
+    /* Customize footer styling */
+  }
