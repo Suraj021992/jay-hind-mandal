@@ -1,18 +1,103 @@
-.devotional-bg {
-    background-image: url('../assets/logo/pxfuel.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+
+/* Glassmorphism */
+.glass{
+  /* background: rgba( 215, 187, 187, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+background: rgba( 92, 67, 67, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 0.5px );
+-webkit-backdrop-filter: blur( 0.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* All Body Background Image */
+*{
+  background-image: url('src/assets/logo/pxfuel.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* NAVBAR PARENT DIV BACKGROUND IMAGE */
+#navigation{
+  /* background-image: url('src/assets/logo/pxfuel.jpg'); */
+  background-color:black;
+}
+
+
+
+
+.navcss{
+    background: rgba( 255, 255, 255, 0.1 );
+  /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+  backdrop-filter: blur( 1px );
+  -webkit-backdrop-filter: blur( 1px );
+  border-radius: 10px;
   }
+  @media (max-width: 767px) {
+      .show_hide {
+        display: none;
+      }
+    }
   
-  .bg-dark-transparent {
-    background-color: rgba(0, 0, 0, 0.7); /* Adjust transparency as needed */
+  @media (min-width: 767px) {
+      .show_hide2 {
+        display: none;
+      }
+    }
+  
+    .smallBanner{
+      display: flex;
+      display: inline;
+    }
+  /* #navbar1::before{
+      content: "";
+      background-color: rgb(0, 0, 0);
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+      opacity: 0.5;
+  } */
+  
+  /* .glass{
+      background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  } */
+  
+
+  
+  /* #link a{
+      text-decoration: none;
+      padding: 5px;
+      margin: 8px;
+      color: white;
+      font-size: 20px;
   }
-  
-  
-  
-  .footer {
-    background-color: rgba(0, 0, 0, 0.7); /* Adjust transparency as needed */
-    color: #ffffff;
-    /* Customize footer styling */
-  }
+  #link a:hover{
+      background-color: white;
+      color: black;
+      border-radius: 15px;
+  } */
