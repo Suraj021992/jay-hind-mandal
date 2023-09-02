@@ -8,6 +8,11 @@ import { MaintitleComponent } from './maintitle/maintitle.component';
 import { SliderComponent } from './slider/slider.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { FooterComponent } from './footer/footer.component';
+import { GalleryPageComponent } from './gallery-page/gallery-page.component';
+import { AboutComponent } from './about/about.component';
+import { FormsModule } from '@angular/forms';
+import { VideopageComponent } from './videopage/videopage.component';
+
 
 @NgModule({
   declarations: [
@@ -17,10 +22,14 @@ import { FooterComponent } from './footer/footer.component';
     SliderComponent,
     GalleryComponent,
     FooterComponent,
+    GalleryPageComponent,
+    AboutComponent,
+    VideopageComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -31,10 +31,9 @@
   transition: 0.5s;
 }
 
-/* Add an active class to highlight the current page */
-.topnav a.active {
-  font-weight: bolder;
+.topnav a:active{
   font-size: 16px;
+  font-weight: bolder;
   background: rgba(38, 38, 38, 0.15);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(0.5px);
@@ -42,6 +41,11 @@
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
+.topnav a:link{
+  color: white;
+}
+/* Add an active class to highlight the current page */
+
 
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {

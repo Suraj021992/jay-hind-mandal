@@ -18,6 +18,7 @@ div.gallery {
   
   * {
     box-sizing: border-box;
+    color: rgb(205, 186, 186);
   }
   
   .responsive {
