@@ -10,11 +10,12 @@ import {TimerComponent} from './timer/timer.component';
 
 
 const routes: Routes = [
-  {path:"", component: TimerComponent},
-  // {path: "homepage",component: MaintitleComponent },
-  // {path: "photopage", component:GalleryPageComponent},
-  // {path:"aboutpage",component:AboutComponent},
-  // {path:"videoja",component:VideoComponent},
+  // {path:"", component: TimerComponent},
+  {path:"", component: MaintitleComponent},
+  {path: "homepage",component: MaintitleComponent },
+  {path: "photopage", component:GalleryPageComponent},
+  {path:"aboutpage",component:AboutComponent},
+  {path:"videoja",component:VideoComponent}
 ];
 
 @NgModule({
