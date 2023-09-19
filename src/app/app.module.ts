@@ -12,6 +12,8 @@ import { GalleryPageComponent } from './gallery-page/gallery-page.component';
 import { AboutComponent } from './about/about.component';
 import { FormsModule } from '@angular/forms';
 import { VideopageComponent } from './videopage/videopage.component';
+import { ImgscrollComponent } from './imgscroll/imgscroll.component';
+import { LatestUpdateComponent } from './latest-update/latest-update.component';
 
 
 @NgModule({
@@ -25,6 +27,8 @@ import { VideopageComponent } from './videopage/videopage.component';
     GalleryPageComponent,
     AboutComponent,
     VideopageComponent,
+    ImgscrollComponent,
+    LatestUpdateComponent,
   ],
   imports: [
     BrowserModule,
